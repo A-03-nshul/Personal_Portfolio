@@ -1,0 +1,183 @@
+<!-- <section class="featured container section"> 
+            <h3 class="featured__subtitle-others">Other Projects</h3>
+            <div class="featured__wrapper-others">         
+              <h2 class="featured__title-others">Video Downloader</h2>
+              <a class="featured__link-others" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M15 6.75a.75.75 0 0 0-.75.75V18a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75H15ZM20.25 6.75a.75.75 0 0 0-.75.75V18c0 .414.336.75.75.75H21a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75h-.75ZM5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L5.055 7.061Z" />
+                </svg>
+                   
+              </a>
+            </div>
+            <p class="featured__description-others">
+              A Python-based web application that downloads videos from YouTube URLs at the maximum available resolution and saves them as '.mp4' files.
+              </p>
+    
+              <div class="featured__info-container-others">
+                <div>
+                  <h3 class="featured__label-others">Python Libraries</h3>
+                  <ul class="featured__domains-others">
+                    <li class="featured__info-others">tkinter</li>
+                    <li class="featured__info-others">customtkinter</li>
+                    <li class="featured__info-others">pytube</li>
+                  </ul>
+                </div>
+      
+                <div>
+                  <h3 class="featured__label-others">Project Type</h3>
+                  <p class="featured__info-others">Python GUI Application</p>
+                </div>
+    
+                <div>
+                  <h3 class="featured__label-others">Timeline</h3>
+                  <p class="featured__info-others">April 2024 - Present</p>                  
+                </div>
+              </div>
+              
+              <br>
+
+            <div class="featured__wrapper-others">         
+              <h2 class="featured__title-others">File Automation</h2>
+              <a class="featured__link-others" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
+                </svg> 
+              </a>
+            </div>
+            <p class="featured__description-others">
+              A Python program that, when running in the background, continuously monitors the Downloads folder and sorts all new files into designated locations based on their file type in real time.
+              </p>
+                <div class="featured__info-container-others">
+                <div>
+                  <h3 class="featured__label-others">Python Libraries</h3>
+                  <ul class="featured__domains-others">
+                    <li class="featured__info-others"><strong1>os</strong1> - scandir, rename</li>
+                    <li class="featured__info-others"><strong1>os.path</strong1> - splitext, exists, join</li>
+                    <li class="featured__info-others"><strong1>shutil</strong1> - move</li>
+                    <li class="featured__info-others"><strong1>logging</strong1></li>
+                    <li class="featured__info-others"><strong1>watchdog.observers</strong1> - Observer</li>
+                    <li class="featured__info-others"><strong1>watchdog.events</strong1> - FileSystemEventHandler</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="featured__label-others">Project Type</h3>
+                  <p class="featured__info-others">Python Automation System</p>
+                </div>
+                <div>
+                  <h3 class="featured__label-others">Timeline</h3>
+                  <p class="featured__info-others">April 2024 - Present</p>                  
+                </div>
+              </div>
+
+              <br>
+
+              <div class="featured__wrapper-others">         
+                <h2 class="featured__title-others">Transcriber</h2>
+                <a class="featured__link-others" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8.25 4.5a3.75 3.75 0 1 1 7.5 0v8.25a3.75 3.75 0 1 1-7.5 0V4.5Z" />
+                    <path d="M6 10.5a.75.75 0 0 1 .75.75v1.5a5.25 5.25 0 1 0 10.5 0v-1.5a.75.75 0 0 1 1.5 0v1.5a6.751 6.751 0 0 1-6 6.709v2.291h3a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1 0-1.5h3v-2.291a6.751 6.751 0 0 1-6-6.709v-1.5A.75.75 0 0 1 6 10.5Z" />
+                  </svg>
+                   
+                </a>
+              </div>
+              <p class="featured__description-others">
+                A Python program that converts video files to `.mp3` format, then uses the IBM Watson Speech to Text (STT) API to transcribe the audio and store the transcription in a `.txt` file.
+                </p>
+                  <div class="featured__info-container-others">
+                  <div>
+                    <h3 class="featured__label-others">Python Libraries</h3>
+                    <ul class="featured__domains-others">
+                      <li class="featured__info-others"><strong1>subprocess</strong1></li>
+                      <li class="featured__info-others"><strong1>os</strong1></li>
+                      <li class="featured__info-others"><strong1>ibm_watson</strong1> - SpeechtoTextV1</li>
+                      <li class="featured__info-others"><strong1>ibm_watson.websocket</strong1> - RecognizeCallback, AudioSource</li>
+                      <li class="featured__info-others"><strong1>ibm_cloud_sdk_core.authenticators</strong1> - IAMAuthenticator</li>
+                      <li class="featured__info-others"><strong1>customtkinter</strong1></li>
+                      <li class="featured__info-others"><strong1>tkinter</strong1> - ttk</li>
+                      <li class="featured__info-others"><strong1>pytube</strong1> - YouTube</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="featured__label-others">Project Type</h3>
+                    <p class="featured__info-others">Video Transcriber</p>
+                  </div>
+                  <div>
+                    <h3 class="featured__label-others">Timeline</h3>
+                    <p class="featured__info-others">April 2024 - Present</p>                  
+                  </div>
+                </div> -->
+      <!-- </section> -->
+
+
+      After Projects heading and the paragraph
+
+      <!-- <div class="featured container section">  -->
+        <div class="work">
+          <!-- <div class="featured__wrapper-others ">          -->
+            <h2 class="featured__title-others">Video Downloader</h2>
+            <a class="featured__link-others" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15 6.75a.75.75 0 0 0-.75.75V18a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75H15ZM20.25 6.75a.75.75 0 0 0-.75.75V18c0 .414.336.75.75.75H21a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75h-.75ZM5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L5.055 7.061Z" />
+              </svg>
+                 
+            </a>
+          <!-- </div> -->
+          <p class="featured__description-others">
+            A Python-based web application that downloads videos from YouTube URLs at the maximum available resolution and saves them as '.mp4' files.
+            </p>
+  
+            <!-- <div class="featured__info-container-others"> -->
+              <section class="work">
+  
+              <!-- <div> -->
+                <h3 class="featured__label-others">Python Libraries</h3>
+                <ul class="featured__domains-others">
+                  <li class="featured__info-others">tkinter</li>
+                  <li class="featured__info-others">customtkinter</li>
+                  <li class="featured__info-others">pytube</li>
+                </ul>
+              <!-- </div> -->
+    
+              <!-- <div> -->
+                <h3 class="featured__label-others">Project Type</h3>
+                <p class="featured__info-others">Python GUI Application</p>
+              <!-- </div> -->
+  
+              <!-- <div> -->
+                <h3 class="featured__label-others">Timeline</h3>
+                <p class="featured__info-others">April 2024 - Present</p>                  
+              <!-- </div> -->
+            <!-- </div> -->
+          </div>
+          <div class="work__img-wrapper work">
+            <img class="work__img" src="YT App.png">
+          </div>
+        </section>
+        
+          
+            
+          </section>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <section class="work container section">
+            <h2 class="work__title ">
+              Projects
+            </h2>
+            <p class="work__description ">
+              A collection of my other personal projects.
+            </p>
+          <!-- Project 1 -->
+            <h3 class="">Video Downloader</h3>
+            <img src="YT App.png" alt="">
+            <p>A Python-based web application that downloads videos from YouTube URLs at the maximum available resolution and saves them as '.mp4' files.</p>
+    
