@@ -1,0 +1,156 @@
+:root{
+  /* rgb(2, 6, 23) */
+  --clr-dark: #020617;
+  /* rgb(241, 245, 249) */
+  --clr-light: #f1f5f9;
+  /* rgb(148, 163, 184) */
+  --clr-slate400: #94a3b8;
+  /* rgb(71, 85, 105) */
+  --clr-slate600: #475569;
+  /* rgb(30, 41, 59) */
+  --clr-slate800: #1e293b;
+  /*rgb(225, 29, 72)*/
+  --clr-rose: #e11d48;   
+  /*	rgb(79, 70, 229)*/
+  --clr-indigo: #4f46e5;     
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-large: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.8rem);    /*this way, we ensure that the line height is ALWAYS proportional to the text being displayed. 
+                                      1em takes the font size of the element, while the 0.5rem adds 8px of line height.*/
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.light-mode{
+  /* rgb(2, 6, 23) */
+  --clr-light: #020617;
+  /* rgb(241, 245, 249) */
+  --clr-dark: #f1f5f9;
+  /* rgb(148, 163, 184) */
+  --clr-slate400: #1e293b;
+  /* rgb(71, 85, 105) */
+  --clr-slate600: #1e293b;
+  /* rgb(30, 41, 59) */
+  --clr-slate800: #1e293b;
+  /*rgb(225, 29, 72)*/
+  --clr-rose: #4f46e5;   
+  /*	rgb(79, 70, 229)*/
+  --clr-indigo: #e11d48;
+}
+
+body{
+  font-family: 'General Sans', sans-serif;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f00, #f0f);
+  clip-path: circle(30% at right 70%);
+}
+body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2196f3, #e91e63);
+  clip-path: circle(20% at 10% 10%);
+}
+
+.cardcontainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.cardcontainer .card{
+  position: relative;
+  width: 330px;
+  height: 550px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(4px);  
+}
+
+.cardcontainer .card .content{
+  /* padding: 9px 6px; */
+  padding: 20px;
+  transform: translateY(100px);
+  opacity :0;
+  text-align: center;
+  transition: 0.5s;
+}
+.cardcontainer .card .content:hover{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.cardcontainer .card .content h2{
+  position: absolute;
+  top: -150px;
+  right: 20px;
+  font-size: 8em;
+  color: rgba(255,255,255,0.15);
+  pointer-events: none;
+}
+.cardcontainer .card .content h3{
+  /* position: absolute; */
+  /* top: -10px;
+  right: 20px; */
+  font-size: 1.8em;
+  color: var(--clr-light);
+  pointer-events: none;
+  z-index: 1;
+}
+.cardcontainer .card .content p{
+  font-size: 1em;
+  color: var(--clr-light);
+  font-weight: 300;
+}
+
+

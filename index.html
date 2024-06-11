@@ -208,10 +208,45 @@
 </section>
 
 
+<div class="cardcontainer">
+  <div class="card">
+    <div class="content">
+      <h2>01</h2>
+      <h3>Video Downloader</h3>
+      <p>
+        A Python-based web application that downloads videos from YouTube URLs at the maximum available resolution and saves them as '.mp4' files.
+      </p>
+      <a class="cbtn" href="#projvd">Read More</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="content">
+      <h2>02</h2>
+      <h3>File Automation</h3>
+      <p>
+        A Python program that, when running in the background, continuously monitors the Downloads folder and sorts all new files into designated locations based on their file type in real time.
+      </p>
+      <a class="cbtn" href="#projfa">Read More</a>
+    </div>
+  </div>
+
+<div class="card">
+  <div class="content">
+    <h2>03</h2>
+    <h3>Transcriber</h3>
+    <p>
+      A Python program that converts video files to `.wav` format, then uses the IBM Watson Speech to Text (STT) API to transcribe the audio and store the transcription in a `.txt` file.
+    </p>
+    <a class="cbtn" href="#projt">Read More</a>
+  </div>
+</div>
+
+
     <section class="work container section">
       <div class="work__content">
       <div class="featured__wrapper-others">         
-        <h2 class="featured__title-others">Video Downloader</h2>
+        <h2 id="projvd" class="featured__title-others">Video Downloader</h2>
         <a class="featured__link-others" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
             <path d="M15 6.75a.75.75 0 0 0-.75.75V18a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75H15ZM20.25 6.75a.75.75 0 0 0-.75.75V18c0 .414.336.75.75.75H21a.75.75 0 0 0 .75-.75V7.5a.75.75 0 0 0-.75-.75h-.75ZM5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256L5.055 7.061Z" />
@@ -219,9 +254,9 @@
              
         </a>
       </div>
-      <p class="featured__description-others">
+      <!-- <p class="featured__description-others">
         A Python-based web application that downloads videos from YouTube URLs at the maximum available resolution and saves them as '.mp4' files.
-        </p>
+        </p> -->
 
         <!-- <div class="featured__info-container-others"> -->
           <!-- <div> -->
@@ -258,7 +293,7 @@
       </div>
       <div class="work__content">
       <div class="featured__wrapper-others">         
-        <h2 class="featured__title-others">File Automation</h2>
+        <h2 id="projfa" class="featured__title-others">File Automation</h2>
         <a class="featured__link-others" href="#">
           <a class="featured__link-others" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -266,9 +301,9 @@
             </svg> 
           </a>
       </div>
-      <p class="featured__description-others">
+      <!-- <p class="featured__description-others">
         A Python program that, when running in the background, continuously monitors the Downloads folder and sorts all new files into designated locations based on their file type in real time.
-        </p>
+        </p> -->
 
         <!-- <div class="featured__info-container-others"> -->
           <!-- <div> -->
@@ -302,7 +337,7 @@
     <section class="work container section">
       <div class="work__content">
       <div class="featured__wrapper-others">         
-        <h2 class="featured__title-others">Transcriber</h2>
+        <h2 id="projt" class="featured__title-others">Transcriber</h2>
         <a class="featured__link-others" href="#">
           <a class="featured__link-others" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -311,9 +346,9 @@
             </svg>
           </a>
       </div>
-      <p class="featured__description-others">
+      <!-- <p class="featured__description-others">
         A Python program that converts video files to `.wav` format, then uses the IBM Watson Speech to Text (STT) API to transcribe the audio and store the transcription in a `.txt` file.
-        </p>
+        </p> -->
 
         <!-- <div class="featured__info-container-others"> -->
           <!-- <div> -->
@@ -368,5 +403,10 @@
 
 
     <script type="module" src="./src/main.js"></script>
+    <script type="text/javascript" src="./src/vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"),{
+      max: 25,
+      speed: 400
+    });</script>
   </body>
 </html>
